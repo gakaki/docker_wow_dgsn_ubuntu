@@ -25,6 +25,8 @@ libgmp10 libgmp-dev librecode-dev  librecode0  recode libyaml-dev autoconf libss
 libmysql++-dev libfreetype6-dev libc-client2007e-dev mysql-client libevent-dev libxml2-dev libtool libmcrypt-dev \
 sysv-rc-conf build-essential libltdl-dev libltdl7 libtool autotools-dev libpcre3-dev libmcrypt-dev \
 libxml2-dev  libfreetype6-dev  libmysqlclient-dev libgmp-dev libpspell-dev  libicu-dev  librecode-dev \
+libpcre3-dev libpcre32-3 libpcrecpp0v5 zlib1g-dev libssl-dev libxml2-dev libxslt1-dev libgd-dev \
+x11-common libgeoip-dev  geoip-bin geoip-database \
 && apt-get autoclean && rm -r /var/lib/apt/lists/* 
 
 CMD ["/bin/bash"]
